@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height:100vh;
+    background-size:contain;
+
+} */
+header{
+    height:40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75)
+    ,rgba(0,0,10,0.1)),
+    url(./assets/design1_image1.jpg);
+    background-size:100% 150%; 
+}
+header h1{
+    font-style:italic;
+    color: white;
+    font-weight: lighter;
+    font-size: 4rem;
+    padding: 1rem;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: .5rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+img{
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    left: 70rem;
+    bottom: 18.9rem;
+}
+main{
+    display: flex;
+    justify-content:flex-start;
+}
+main nav{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin: 2rem 4rem;
+    padding-left: 5rem;
+}
+a{
+    padding: .5rem;
+}
+.active{
+    text-decoration: none;
+    color: black;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main section{
+     margin: 2rem 4rem;
+    padding-left: 5rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    flex-grow: 1;
+}
+div.container1{
+
+
+    height: 20rem;
+    margin:  0 0 !important;
+   
+
+}
+section h3{
+    font-size: 1.5rem;
+}
+section p{
+    font-weight:500;
+}
+.section{
+    max-height: 1vh !important;
+    font-size: .8rem;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.container_contact{
+    min-height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact{
+    
+    display: flex;
+    align-items:flex-start;
+    padding: 2.7rem;
+    flex-grow: 1;
+    
+}
+.enlace{
+    padding: 0;
+}
